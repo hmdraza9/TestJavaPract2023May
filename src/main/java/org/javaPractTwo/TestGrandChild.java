@@ -1,10 +1,13 @@
 package org.javaPractTwo;
 
+import java.util.TreeSet;
+
 public class TestGrandChild extends TestChild{
 
     TestGrandChild(){
 
         super();
+        System.out.println("I am in TestGrandChild class constructor.");
 
     }
 
@@ -31,8 +34,9 @@ public class TestGrandChild extends TestChild{
 
     public static void main(String[] args){
 
-        TestGrandChild t1 = new TestGrandChild();
-        t1.showTrigger();
+//        TestGrandChild t1 = new TestGrandChild();
+//        t1.showTrigger();s
+
 
 
     }

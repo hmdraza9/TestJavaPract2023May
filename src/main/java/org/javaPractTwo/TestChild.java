@@ -5,6 +5,7 @@ public class TestChild  extends TestParent{
     TestChild(){
 
         super();
+        System.out.println("I am in TestChild class constructor.");
 
     }
 

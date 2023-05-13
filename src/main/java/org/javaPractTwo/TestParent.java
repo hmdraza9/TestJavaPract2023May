@@ -4,6 +4,12 @@ import java.math.BigInteger;
 
 public class TestParent {
 
+    public void TestParent(){
+
+        System.out.println("I am in TestParent class constructor.");
+
+    }
+
      String Name = "Hamid";
      String Email = "hmdraza9@gmail.com";
      String phone = "9958777777";
